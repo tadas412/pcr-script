@@ -1,0 +1,805 @@
+2016-01-06 22:15:44; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 343, in main
+    sys.exit()
+SystemExit
+
+
+2016-01-06 22:16:25; Running a check
+2016-01-06 22:16:28; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 294, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-01-06 22:25:24; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 358, in main
+    classes = get_classes(sys.argv[1]) # passing pennkey
+  File "register-script.py", line 310, in get_classes
+    r = s.get(pcr_api_url, data=data, timeout=10)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 477, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 451, in request
+    prep = self.prepare_request(req)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 382, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Library/Python/2.7/site-packages/requests/models.py", line 304, in prepare
+    self.prepare_url(url, params)
+  File "/Library/Python/2.7/site-packages/requests/models.py", line 362, in prepare_url
+    to_native_string(url, 'utf8')))
+MissingSchema: Invalid URL 'pcr-api.elasticbeanstalk.com': No schema supplied. Perhaps you meant http://pcr-api.elasticbeanstalk.com?
+
+
+2016-01-06 22:25:36; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 358, in main
+    classes = get_classes(sys.argv[1]) # passing pennkey
+  File "register-script.py", line 312, in get_classes
+    json_response = r.json()
+  File "/Library/Python/2.7/site-packages/requests/models.py", line 819, in json
+    return json.loads(self.text, **kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+
+2016-01-06 22:26:01; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 358, in main
+    classes = get_classes(sys.argv[1]) # passing pennkey
+  File "register-script.py", line 312, in get_classes
+    json_response = r.json()
+  File "/Library/Python/2.7/site-packages/requests/models.py", line 819, in json
+    return json.loads(self.text, **kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+
+2016-01-06 22:28:06; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 324, in main
+    classes = get_classes(sys.argv[1]) # passing pennkey
+  File "register-script.py", line 311, in get_classes
+    json_response = r.json()
+  File "/Library/Python/2.7/site-packages/requests/models.py", line 819, in json
+    return json.loads(self.text, **kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+
+2016-01-06 22:29:39; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 325, in main
+    checkClasses(classes)
+  File "register-script.py", line 165, in checkClasses
+    while len(classes) > 0:
+TypeError: object of type 'NoneType' has no len()
+
+
+2016-01-06 22:30:23; Running a check
+2016-01-06 22:30:25; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 325, in main
+    checkClasses(classes)
+  File "register-script.py", line 295, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-01-13 16:48:45; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 323, in main
+    sys.exit()
+SystemExit
+
+
+2016-01-13 16:48:58; Running a check
+2016-01-13 16:49:28; Running a check
+2016-01-13 16:49:40; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 325, in main
+    checkClasses(classes)
+  File "register-script.py", line 295, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-06-02 22:42:03; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 324, in main
+    sys.exit()
+SystemExit
+
+
+2016-06-02 22:42:19; Server error!
+2016-06-02 22:42:23; Server error!
+2016-06-02 22:42:23; Sleeping for server error...
+2016-06-02 22:42:25; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 327, in main
+    checkClasses(classes)
+  File "register-script.py", line 174, in checkClasses
+    serverError()
+  File "register-script.py", line 155, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 08:50:53; Server error!
+2016-07-01 08:50:55; Server error!
+2016-07-01 08:50:55; Sleeping for server error...
+2016-07-01 08:50:55; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 336, in main
+    checkClasses(classes)
+  File "register-script.py", line 183, in checkClasses
+    serverError()
+  File "register-script.py", line 164, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 08:52:09; Running a check
+2016-07-01 08:52:09; Server error!
+2016-07-01 08:52:14; Server error!
+2016-07-01 08:52:14; Sleeping for server error...
+2016-07-01 08:52:14; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 336, in main
+    checkClasses(classes)
+  File "register-script.py", line 183, in checkClasses
+    serverError()
+  File "register-script.py", line 164, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 08:54:01; Running a check
+2016-07-01 08:54:01; Server error!
+2016-07-01 08:54:11; Running a check
+2016-07-01 08:54:11; Server error!
+2016-07-01 08:54:11; Sleeping for server error...
+2016-07-01 08:54:44; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 339, in main
+    classes = get_classes(sys.argv[1:]) # passing course codes
+  File "register-script.py", line 205, in checkClasses
+    codes = extractAJAXCodes(r.text) # grabs the AJAX codes we need to send the right POST requests (i.e. click the buttons)
+  File "register-script.py", line 167, in serverError
+    r = random.randint(int(downtime_waittime - downtime_waittime * .1), int(downtime_waittime + downtime_waittime * .1))
+KeyboardInterrupt
+
+
+2016-07-01 08:54:46; Server error!
+2016-07-01 08:54:46; Server error!
+2016-07-01 08:54:46; Sleeping for server error...
+2016-07-01 08:54:49; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 341, in main
+    checkClasses(classes)
+  File "register-script.py", line 188, in checkClasses
+    serverError()
+  File "register-script.py", line 169, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 08:55:09; Running a check
+2016-07-01 08:55:09; Server error!
+2016-07-01 08:55:20; Running a check
+2016-07-01 08:55:20; Server error!
+2016-07-01 08:55:20; Sleeping for server error...
+2016-07-01 08:55:25; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 341, in main
+    checkClasses(classes)
+  File "register-script.py", line 207, in checkClasses
+    serverError()
+  File "register-script.py", line 169, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 08:56:53; Running a check
+2016-07-01 08:56:53; Server error!
+2016-07-01 08:56:55; Server error!
+2016-07-01 08:56:55; Sleeping for server error...
+2016-07-01 08:57:02; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 340, in main
+    checkClasses(classes)
+  File "register-script.py", line 187, in checkClasses
+    serverError()
+  File "register-script.py", line 168, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 08:58:20; Running a check
+2016-07-01 08:58:20; Server error!
+2016-07-01 08:58:28; Server error!
+2016-07-01 08:58:28; Sleeping for server error...
+2016-07-01 08:58:28; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 340, in main
+    checkClasses(classes)
+  File "register-script.py", line 187, in checkClasses
+    serverError()
+  File "register-script.py", line 168, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 08:59:46; Server error!
+2016-07-01 08:59:46; Server error!
+2016-07-01 08:59:46; Sleeping for server error...
+2016-07-01 08:59:46; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 192, in checkClasses
+    serverError()
+  File "register-script.py", line 173, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:00:02; Running a check
+2016-07-01 09:00:03; Server error!
+2016-07-01 09:00:04; Server error!
+2016-07-01 09:00:04; Sleeping for server error...
+2016-07-01 09:00:04; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 192, in checkClasses
+    serverError()
+  File "register-script.py", line 173, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:01:50; Running a check
+2016-07-01 09:01:50; Server error!
+2016-07-01 09:01:53; Server error!
+2016-07-01 09:01:53; Sleeping for server error...
+2016-07-01 09:01:53; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 192, in checkClasses
+    serverError()
+  File "register-script.py", line 173, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:03:06; Running a check
+2016-07-01 09:03:06; Server error!
+2016-07-01 09:03:08; Server error!
+2016-07-01 09:03:08; Sleeping for server error...
+2016-07-01 09:03:08; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 192, in checkClasses
+    serverError()
+  File "register-script.py", line 173, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:05:18; Running a check
+2016-07-01 09:05:18; Server error!
+2016-07-01 09:05:24; Server error!
+2016-07-01 09:05:24; Sleeping for server error...
+2016-07-01 09:05:25; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 346, in main
+    checkClasses(classes)
+  File "register-script.py", line 193, in checkClasses
+    serverError()
+  File "register-script.py", line 174, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:05:53; Running a check
+2016-07-01 09:05:53; Server error!
+2016-07-01 09:06:05; Running a check
+2016-07-01 09:06:05; Server error!
+2016-07-01 09:06:05; Sleeping for server error...
+2016-07-01 09:06:14; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 347, in main
+    checkClasses(classes)
+  File "register-script.py", line 213, in checkClasses
+    serverError()
+  File "register-script.py", line 175, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:07:16; Running a check
+2016-07-01 09:07:16; Server error!
+2016-07-01 09:07:21; Server error!
+2016-07-01 09:07:21; Sleeping for server error...
+2016-07-01 09:07:21; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 348, in main
+    checkClasses(classes)
+  File "register-script.py", line 195, in checkClasses
+    serverError()
+  File "register-script.py", line 176, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:10:38; Running a check
+2016-07-01 09:10:38; Server error!
+2016-07-01 09:10:39; Server error!
+2016-07-01 09:10:39; Sleeping for server error...
+2016-07-01 09:10:39; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 192, in checkClasses
+    serverError()
+  File "register-script.py", line 173, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:11:42; Running a check
+2016-07-01 09:11:43; Server error!
+2016-07-01 09:11:48; Server error!
+2016-07-01 09:11:48; Sleeping for server error...
+2016-07-01 09:11:48; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 343, in main
+    checkClasses(classes)
+  File "register-script.py", line 190, in checkClasses
+    serverError()
+  File "register-script.py", line 171, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:38:18; Running a check
+2016-07-01 09:38:18; Server error!
+2016-07-01 09:38:21; Server error!
+2016-07-01 09:38:21; Sleeping for server error...
+2016-07-01 09:38:21; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 192, in checkClasses
+    serverError()
+  File "register-script.py", line 173, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:39:11; Running a check
+2016-07-01 09:39:11; Server error!
+2016-07-01 09:39:13; Server error!
+2016-07-01 09:39:13; Sleeping for server error...
+2016-07-01 09:39:14; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 341, in main
+    checkClasses(classes)
+  File "register-script.py", line 188, in checkClasses
+    serverError()
+  File "register-script.py", line 169, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:39:43; Running a check
+2016-07-01 09:39:43; Server error!
+2016-07-01 09:39:47; Server error!
+2016-07-01 09:39:47; Sleeping for server error...
+2016-07-01 09:39:47; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 342, in main
+    checkClasses(classes)
+  File "register-script.py", line 189, in checkClasses
+    serverError()
+  File "register-script.py", line 170, in serverError
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:40:36; Running a check
+2016-07-01 09:40:44; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 343, in main
+    checkClasses(classes)
+  File "register-script.py", line 310, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:42:54; Running a check
+2016-07-01 09:43:00; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 336, in main
+    checkClasses(classes)
+  File "register-script.py", line 303, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:44:33; Running a check
+2016-07-01 09:44:40; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 338, in main
+    checkClasses(classes)
+  File "register-script.py", line 305, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:45:21; Running a check
+2016-07-01 09:45:24; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 339, in main
+    tb_txt = traceback.format_exc()
+  File "register-script.py", line 306, in checkClasses
+    try:
+KeyboardInterrupt
+
+
+2016-07-01 09:46:35; Running a check
+2016-07-01 09:46:58; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 339, in main
+    checkClasses(classes)
+  File "register-script.py", line 306, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:48:04; Running a check
+2016-07-01 09:48:08; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 339, in main
+    checkClasses(classes)
+  File "register-script.py", line 306, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:48:37; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 340, in main
+    checkClasses(classes)
+  File "register-script.py", line 199, in checkClasses
+    r = s.get("https://pennintouch.apps.upenn.edu/pennInTouch/jsp/fast2.do?fastButtonId=" + page_code, timeout=10) # Clicks "Register for Courses" button
+  File "//anaconda/lib/python2.7/site-packages/requests/sessions.py", line 480, in get
+    return self.request('GET', url, **kwargs)
+  File "//anaconda/lib/python2.7/site-packages/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "//anaconda/lib/python2.7/site-packages/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "//anaconda/lib/python2.7/site-packages/requests/adapters.py", line 370, in send
+    timeout=timeout
+  File "//anaconda/lib/python2.7/site-packages/requests/packages/urllib3/connectionpool.py", line 559, in urlopen
+    body=body, headers=headers)
+  File "//anaconda/lib/python2.7/site-packages/requests/packages/urllib3/connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "//anaconda/lib/python2.7/site-packages/requests/packages/urllib3/connectionpool.py", line 782, in _validate_conn
+    conn.connect()
+  File "//anaconda/lib/python2.7/site-packages/requests/packages/urllib3/connection.py", line 250, in connect
+    ssl_version=resolved_ssl_version)
+  File "//anaconda/lib/python2.7/site-packages/requests/packages/urllib3/util/ssl_.py", line 285, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "//anaconda/lib/python2.7/ssl.py", line 352, in wrap_socket
+    _context=self)
+  File "//anaconda/lib/python2.7/ssl.py", line 579, in __init__
+    self.do_handshake()
+  File "//anaconda/lib/python2.7/ssl.py", line 808, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+
+2016-07-01 09:48:48; Running a check
+2016-07-01 09:48:52; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 340, in main
+    checkClasses(classes)
+  File "register-script.py", line 307, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:49:40; Running a check
+2016-07-01 09:49:44; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 341, in main
+    checkClasses(classes)
+  File "register-script.py", line 308, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:50:15; Running a check
+2016-07-01 09:50:18; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 341, in main
+    checkClasses(classes)
+  File "register-script.py", line 308, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:53:26; Running a check
+2016-07-01 09:53:32; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 341, in main
+    checkClasses(classes)
+  File "register-script.py", line 308, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 09:55:00; Running a check
+2016-07-01 09:55:05; Unsuccessful registration: MATH 114 001
+2016-07-01 09:55:08; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 341, in main
+    checkClasses(classes)
+  File "register-script.py", line 293, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 511, in data
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
+2016-07-01 09:56:22; Running a check
+2016-07-01 09:56:26; Unsuccessful registration: MATH 114 001
+2016-07-01 09:56:30; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 338, in main
+    checkClasses(classes)
+  File "register-script.py", line 290, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 511, in data
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
+2016-07-01 09:57:03; Running a check
+2016-07-01 09:57:07; Unsuccessful registration: MATH 114 001
+2016-07-01 09:57:11; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 337, in main
+    checkClasses(classes)
+  File "register-script.py", line 289, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 511, in data
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
+2016-07-01 10:07:19; Running a check
+2016-07-01 10:07:23; Unsuccessful registration: MATH 114 001
+2016-07-01 10:07:25; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 342, in main
+    checkClasses(classes)
+  File "register-script.py", line 294, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 510, in data
+    self.send(q)
+  File "//anaconda/lib/python2.7/smtplib.py", line 328, in send
+    self.sock.sendall(str)
+  File "//anaconda/lib/python2.7/ssl.py", line 721, in sendall
+    v = self.send(data[count:])
+  File "//anaconda/lib/python2.7/ssl.py", line 687, in send
+    v = self._sslobj.write(data)
+KeyboardInterrupt
+
+
+2016-07-01 10:10:24; Running a check
+2016-07-01 10:10:29; Unsuccessful registration: MATH 114 001
+2016-07-01 10:10:32; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 343, in main
+    checkClasses(classes)
+  File "register-script.py", line 295, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 72, in sendEmail
+    server.login(my_email, my_pass)
+  File "//anaconda/lib/python2.7/smtplib.py", line 582, in login
+    self.ehlo_or_helo_if_needed()
+  File "//anaconda/lib/python2.7/smtplib.py", line 542, in ehlo_or_helo_if_needed
+    if not (200 <= self.ehlo()[0] <= 299):
+  File "//anaconda/lib/python2.7/smtplib.py", line 414, in ehlo
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
+2016-07-01 10:13:54; Running a check
+2016-07-01 10:13:59; Unsuccessful registration: MATH 114 001
+2016-07-01 10:14:02; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 343, in main
+    checkClasses(classes)
+  File "register-script.py", line 295, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 511, in data
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
+2016-07-01 10:26:43; Running a check
+2016-07-01 10:26:47; Unsuccessful registration: MATH 114 001
+2016-07-01 10:26:53; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 348, in main
+    checkClasses(classes)
+  File "register-script.py", line 300, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 510, in data
+    self.send(q)
+  File "//anaconda/lib/python2.7/smtplib.py", line 328, in send
+    self.sock.sendall(str)
+  File "//anaconda/lib/python2.7/ssl.py", line 721, in sendall
+    v = self.send(data[count:])
+  File "//anaconda/lib/python2.7/ssl.py", line 687, in send
+    v = self._sslobj.write(data)
+KeyboardInterrupt
+
+
+2016-07-01 10:27:13; Running a check
+2016-07-01 10:27:18; Unsuccessful registration: MATH 114 001
+2016-07-01 10:27:27; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 347, in main
+    except:
+  File "register-script.py", line 314, in checkClasses
+    debug("Clicking cancel")
+KeyboardInterrupt
+
+
+2016-07-01 10:28:09; Running a check
+2016-07-01 10:28:14; Successful registration: MATH 114 001
+2016-07-01 10:28:17; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 346, in main
+    checkClasses(classes)
+  File "register-script.py", line 298, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 511, in data
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
+2016-07-01 10:29:19; Running a check
+2016-07-01 10:29:23; Unsuccessful registration: MATH 114 001
+2016-07-01 10:29:26; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 342, in main
+    checkClasses(classes)
+  File "register-script.py", line 294, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 510, in data
+    self.send(q)
+  File "//anaconda/lib/python2.7/smtplib.py", line 328, in send
+    self.sock.sendall(str)
+  File "//anaconda/lib/python2.7/ssl.py", line 721, in sendall
+    v = self.send(data[count:])
+  File "//anaconda/lib/python2.7/ssl.py", line 687, in send
+    v = self._sslobj.write(data)
+KeyboardInterrupt
+
+
+2016-07-01 10:31:35; Running a check
+2016-07-01 10:31:39; Unsuccessful registration: MATH 114 001
+2016-07-01 10:31:39; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 344, in main
+    checkClasses(classes)
+  File "register-script.py", line 295, in checkClasses
+    file_out(r.content) ###
+TypeError: 'str' object is not callable
+
+
+2016-07-01 10:33:22; Running a check
+2016-07-01 10:33:27; Unsuccessful registration: MATH 114 001
+2016-07-01 10:33:45; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 312, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 10:34:57; Running a check
+2016-07-01 10:35:01; Unsuccessful registration: MATH 114 001
+2016-07-01 10:35:06; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 297, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 511, in data
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
+2016-07-01 10:36:25; Running a check
+2016-07-01 10:36:30; Successful registration: MATH 114 001
+2016-07-01 10:36:36; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 312, in checkClasses
+    sleep(r)
+KeyboardInterrupt
+
+
+2016-07-01 10:38:01; Running a check
+2016-07-01 10:38:05; Successful registration: MATH 114 001
+2016-07-01 10:38:10; SOMETHING WENT WRONG! Traceback (most recent call last):
+  File "register-script.py", line 345, in main
+    checkClasses(classes)
+  File "register-script.py", line 297, in checkClasses
+    sendEmail(txt, r.content)
+  File "register-script.py", line 75, in sendEmail
+    server.sendmail(my_email, to_email, text)
+  File "//anaconda/lib/python2.7/smtplib.py", line 743, in sendmail
+    (code, resp) = self.data(msg)
+  File "//anaconda/lib/python2.7/smtplib.py", line 511, in data
+    (code, msg) = self.getreply()
+  File "//anaconda/lib/python2.7/smtplib.py", line 361, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "//anaconda/lib/python2.7/smtplib.py", line 191, in readline
+    chr = self.sslobj.read(1)
+  File "//anaconda/lib/python2.7/ssl.py", line 621, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+
